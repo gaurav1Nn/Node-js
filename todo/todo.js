@@ -9,7 +9,7 @@ const loadTasks = () =>{
         return JSON.parse(dataJSON)
     }catch(error){
         return []
-    }
+    } 
 }
 const listTasks = () => {
     const tasks = loadTasks()
